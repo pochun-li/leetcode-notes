@@ -59,6 +59,6 @@ Inside the while loop, if the number we point on equals to 'val', then we SWAP i
 Noted that it is important to make sure the condition in the while loop is "i <= last" instead of "i < last", this is because we need to make sure we are also checking the situation of both 'i' and 'last' pointers are pointing same position. Otherwise, there will be a gap that we are not screening at.
 
 At the end of the day, we will end this whole checking process at the "else" part because otherwise if we are still doing the "if" part, it means that we have not yet finished checking the array. As a result, 'i' pointer will end up being a step further than its final position. But since the index is 1 less than actual length of the list, we can just return 'i' as the length of the list. 
-
+'''
 
 
